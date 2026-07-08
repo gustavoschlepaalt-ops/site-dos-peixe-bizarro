@@ -28,7 +28,38 @@ body{
              max-width: 1200px;
              margin: 0 auto;
             outline: 3px solid #1100ff
+
+            .post {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+            text-align: left;
+            margin: 20px 0;
+            
+
+        .conteudo-texto {
+            flex: 1;
         }
+
+        .conteudo-imagem img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .post {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .conteudo-imagem img {
+                max-width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -37,6 +68,8 @@ body{
 <h1>esse site tem muitos tipos de fish que vocẽ poderá ver</h1>
 </header>
 <main>
+<div class="post">
+<div class="conteudo-texto"
     <h1>peixe 1: fih</h1>
 <p>
 O fih é uma espécie rara de peixe que, segundo relatos de pescadores e exploradores, habita as regiões mais profundas e silenciosas dos oceanos. Sua aparência é marcada por escamas que refletem tons azulados e prateados, criando um brilho suave mesmo em ambientes com pouca luz.
@@ -46,8 +79,14 @@ Por viver em locais de difícil acesso, o fih é visto muito raramente. Acredita
 Além de sua beleza, o fih desperta grande curiosidade entre pesquisadores, pois acredita-se que possua adaptações únicas para sobreviver às altas pressões das profundezas. Embora existam poucas informações sobre essa espécie, ela é frequentemente citada em histórias e lendas marítimas como um símbolo de mistério e da riqueza da vida nos oceanos.
 
 Independentemente de sua raridade, o fih representa a importância de preservar os ecossistemas marinhos, lembrando que muitos seres ainda permanecem pouco conhecidos pela ciência.
-    </p>
-<hr style="border: 0; border-top: 1px solid #1100ff: 30px auto; max-width: 90%; opacity: 0.5;">
+ </p>
+</div>
+<div class="conteudo-imagem"
+<img src="PLACEHOLDER" alt="imagem muito bizarra"
+</div>
+</div>
+<hr style="border: 0; border-top: 1px solid #bd346b; margin: 30px auto; max-width: 90%; opacity: 0.5;">
+
 <h1>peixe 2: duke fishron</h1>
 <p>O **Duke Fishron** é um dos chefes mais poderosos e desafiadores do jogo *Terraria*. Ele pode ser invocado ao usar um **Truffle Worm** como isca durante a pesca no oceano. Conhecido por sua velocidade impressionante e ataques devastadores, Duke Fishron é considerado um grande teste de habilidade para os jogadores.
 
@@ -57,7 +96,8 @@ Derrotar Duke Fishron recompensa o jogador com alguns dos melhores itens dispon�
 
 Além de sua dificuldade, Duke Fishron é um dos chefes mais marcantes de *Terraria*, combinando a aparência de um tubarão com características de um dragão e criaturas marinhas. Seu design, seus ataques únicos e a excelente qualidade das recompensas fazem dele um dos confrontos mais memoráveis do jogo.
 </p>
-<hr style="border: 0; border-top: 1px solid #1100ff: 30px auto; max-width: 90%; opacity: 0.5;">
+
+
 </main>
 </body>
 </html>
